@@ -14,3 +14,9 @@
   left: 0;
   top: 0;
 }
+
+/* 翻页按钮居中 */
+#pagination {
+  width: 100%;
+  margin: auto;
+}
