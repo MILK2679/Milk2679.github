@@ -1,6 +1,6 @@
 
 // 新增的内容
-var arr = document.getElementsByClassName('is-center');
+var arr = document.getElementsByClassName('gallery-group-main');
 //把element-class替换成你想要添加特效的元素的类名
 for(var i = 0;i<arr.length;i++){
     arr[i].classList.add('wowpanels');
