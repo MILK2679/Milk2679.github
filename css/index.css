@@ -3713,7 +3713,10 @@ h1.page-title + .tag-cloud-list {
   width: 100%;
   height: 100vh;
 }
-#loading-box .spinner-box .configure-border-1 {
+#loading-box .carplay {
+  display: none;
+}
+#loading-box .configure-border-1 {
   position: absolute;
   padding: 3px;
   width: 115px;
@@ -3725,7 +3728,7 @@ h1.page-title + .tag-cloud-list {
   -ms-animation: configure-clockwise 3s ease-in-out 0s infinite alternate;
   animation: configure-clockwise 3s ease-in-out 0s infinite alternate;
 }
-#loading-box .spinner-box .configure-border-2 {
+#loading-box .configure-border-2 {
   left: -115px;
   padding: 3px;
   width: 115px;
@@ -3742,12 +3745,12 @@ h1.page-title + .tag-cloud-list {
   -ms-animation: configure-xclockwise 3s ease-in-out 0s infinite alternate;
   animation: configure-xclockwise 3s ease-in-out 0s infinite alternate;
 }
-#loading-box .spinner-box .loading-word {
+#loading-box .loading-word {
   position: absolute;
   color: var(--preloader-color);
   font-size: 16px;
 }
-#loading-box .spinner-box .configure-core {
+#loading-box .configure-core {
   width: 100%;
   height: 100%;
   background-color: var(--preloader-bg);
