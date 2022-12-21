@@ -6083,12 +6083,6 @@ blockquote.pullquote.right {
   overflow: hidden;
 }
 
-#page:has(#about-page) {
-  border: 0;
-  box-shadow: none !important;
-  padding: 0 !important;
-  background: transparent !important;
-}
 
 #page:has(#about-page) .page-title {
   display: none;
