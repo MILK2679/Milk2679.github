@@ -1,15 +1,10 @@
-/* loading背景 */
-.loading-bg, #loading-box .loading-left-bg, #loading-box .loading-right-bg{
-    background-color: #3f3f3f;
-}
-
-.carplay{
+html{
     box-sizing: border-box;
 
     --black :#1a1c20 ;
     --white : #fff ;
-    --green : #3f3f3f ;
-    --d-green : #1e1e1e ;
+    --green : #00c380 ;
+    --d-green : #019b66 ;
     --gray : #c1c1c1 ;
     --l-gray: #c4c4c4 ;
     --m-gray : #373838 ;
@@ -22,28 +17,28 @@
     --n-road : -4em;
     --p-road : 7em;
 
-    /* background-color: var(--green) ; */
+    background-color: var(--green) ;
 
 
 }
 
-.carplay *,
-.carplay *::before,
-.carplay *::after{
+html *,
+html *::before,
+html *::after{
 
     box-sizing: inherit ;
 
 }
 
-.carplay::before,
-.carplay::after {
+body::before,
+body::after {
 
     content: " " ;
     position: absolute ;
-    z-index: 1002;
+
 }
 
-.carplay{
+body{
 
     margin: 0 ;
     height: 100vh ;
@@ -156,7 +151,7 @@
 
 
 
-.carplay::before{
+body::before{
     
     width: 15.5em ;
     height: 62.9em ;
@@ -174,7 +169,7 @@
 
 
 
-.carplay::after{
+body::after{
 
     width: 15.2em ;
     height: 13.2em ;
@@ -995,7 +990,7 @@
 
 }
 
-/* 
+
 @media screen and (max-width: 36em) {
     
     html{
@@ -1005,7 +1000,7 @@
     }
 
 
-    .carplay::before{
+    body::before{
       
         width: 11em ;
         --n-road: -4em ;
@@ -1016,4 +1011,4 @@
 
 }
 
- */
+
